@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-feature 'user creates an account' do
+feature 'user signs up' do
   # As a prospective user
   # I want to create a profile
   # So that I can use the app
@@ -26,7 +26,7 @@ feature 'user creates an account' do
   end
 
   scenario 'required information is not supplied' do
-    visit '/users/sign_up'
+    visit root_path
     click_link 'Sign Up'
     click_button "Sign Up"
 
@@ -35,7 +35,7 @@ feature 'user creates an account' do
   end
 
   scenario 'password confirmation does not match password' do
-    visit '/users/sign_up'
+    visit root_path
     click_link 'Sign Up'
     fill_in 'Email', with: 'user@example.com'
     fill_in 'user_password', with: 'password'
