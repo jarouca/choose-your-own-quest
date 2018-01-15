@@ -12,4 +12,83 @@
  *
  *= require_tree .
  *= require_self
+ *= require foundation_and_overrides
+
  */
+
+ html, body, h1, h2, h3, h4, p, div, ul, li {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+  }
+
+ * {
+   font-family: MedievalSharp;
+ }
+
+ .nav {
+   background-color: green;
+ }
+
+ .top-bar {
+   height: 40px;
+   color: white;
+ }
+
+ .menu {
+   height: 40px;
+ }
+
+ .menu-text {
+   font-size: 20px;
+   font-family: MedievalSharp;
+   color: white;
+ }
+
+ .callout {
+   background-color: #f0e68c;
+   height: 200px;
+ }
+
+ .menu li a {
+   color: white;
+ }
+
+ #welcome-banner {
+   margin: 20px 0px 40px 0px;
+   font-size: 20px;
+   font-family: MedievalSharp;
+ }
+
+ .panel-header {
+   margin: 0px 0px 10px 0px;
+ }
+
+ .callout p {
+   font-family: MedievalSharp;
+ }
+
+ .form-title {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-size: 30px;
+ }
+
+ .form-inputs {
+   width: 400px;
+ }
+
+ body {
+   background-color: #f0e68c;
+
+ }
+
+ #form-instructions {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   /*width: 230px;
+   margin-right: 40px;*/
+
+ }
