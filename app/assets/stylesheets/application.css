@@ -32,6 +32,10 @@
    background-color: green;
  }
 
+ .notice {
+   color: red;
+ }
+
  .top-bar {
    height: 40px;
    color: white;
