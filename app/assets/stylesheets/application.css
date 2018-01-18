@@ -32,6 +32,12 @@
    background-color: green;
  }
 
+ .menu li {
+   &:hover {
+     background: lighten(#333, 10%);
+   }
+ }
+
  .notice {
    color: red;
  }
