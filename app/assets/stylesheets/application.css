@@ -38,6 +38,9 @@
  }
 
  .notice {
+   margin-left: 30px;
+   margin-top: 5px;
+   font-size: 20px;
    color: red;
  }
 
