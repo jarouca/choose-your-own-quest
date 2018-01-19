@@ -32,12 +32,10 @@
    background-color: green;
  }
 
- .menu li {
-   &:hover {
-     background: lighten(#333, 10%);
-   }
+ .form-wrapper {
+   margin: auto;
+   width: 35%;
  }
-
  .notice {
    color: red;
  }
