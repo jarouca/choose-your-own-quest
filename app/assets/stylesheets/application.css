@@ -28,9 +28,6 @@
    font-family: MedievalSharp;
  }
 
- .nav {
-   background-color: green;
- }
 
  .form-wrapper {
    margin: auto;
@@ -42,6 +39,10 @@
    margin-top: 5px;
    font-size: 20px;
    color: red;
+ }
+
+ .button {
+   background-color: #3D8C5F;
  }
 
  .alert {
@@ -98,7 +99,6 @@
 
  body {
    background-color: #f0e68c;
-
  }
 
  #form-instructions {
