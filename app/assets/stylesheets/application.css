@@ -65,10 +65,16 @@
  }
 
  .callout {
-   background-color: #f0e68c;
+   float: left;
    height: 200px;
+   width: 400px;
+   margin: 10px;
  }
 
+ .splash-container {
+   margin: auto;
+   width: 900px;
+ }
  .menu li a {
    color: white;
  }
