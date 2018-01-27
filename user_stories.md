@@ -84,11 +84,19 @@ So I can maintain my profile
 - I must be given notification that my deletion was successful
 
 #user selects a story to begin
+
 #User can restart or redo a quest with a clean slate
+
 #upon sign is user redirected to quest index page
+
 #can user save progress in multiple quests at once?
+
 #contact us form, asking for feedback and ideas for new quests?
+
 #what happens if user hits back button to previous part of quest? does their action become undone? probably notice
 
+#contact us form submittal, feedback, suggestions for quests, maybe users can write own quest?
+
+#safeguard against user having more than one 'choices' table for a quest, when sign back in and click on quest condition immediately checks for progress and starts user at that progress, not allowing to overwrite choices, if user clicks back to review story, condition says if choice was already made it doesn't show any other options to click on to move forward
 
 #heroku
