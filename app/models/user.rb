@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  has_one :choice
+
   validates_presence_of :username
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
