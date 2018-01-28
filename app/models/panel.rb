@@ -1,7 +1,7 @@
 class Panel < ApplicationRecord
   belongs_to :quest
 
-  validates :quest_id, presence: true 
+  validates :quest_id, presence: true, numericality: {only_integer: true}
   validates :text, presence: true
 
 end
