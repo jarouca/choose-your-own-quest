@@ -91,6 +91,8 @@ So I can maintain my profile
 
 #can user save progress in multiple quests at once?
 
+#user can select to carry and use/give away items, condition on displaying some panels: if user has this item, deisplay this option/choice
+
 #contact us form, asking for feedback and ideas for new quests?
 
 #what happens if user hits back button to previous part of quest? does their action become undone? probably notice

@@ -14,7 +14,7 @@ feature 'user signs up' do
 
   scenario 'user successfully creates an account' do
     visit root_path
-    click_link 'Sign Up'
+    click_link 'Sign Up', match: :first
     fill_in 'Username', with: 'username'
     fill_in 'Email', with: 'user@example.com'
     fill_in 'user_password', with: 'password'
@@ -27,7 +27,7 @@ feature 'user signs up' do
 
   scenario 'required information is not supplied' do
     visit root_path
-    click_link 'Sign Up'
+    click_link 'Sign Up', match: :first
     click_button "Sign Up"
 
     expect(page).to have_content("can't be blank")
@@ -36,7 +36,7 @@ feature 'user signs up' do
 
   scenario 'password confirmation does not match password' do
     visit root_path
-    click_link 'Sign Up'
+    click_link 'Sign Up', match: :first
     fill_in 'Email', with: 'user@example.com'
     fill_in 'user_password', with: 'password'
     fill_in 'Password Confirmation', with: 'assword'
