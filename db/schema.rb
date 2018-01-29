@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180128192745) do
+ActiveRecord::Schema.define(version: 20180129155139) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20180128192745) do
     t.integer "quest_id",          null: false
     t.integer "previous_panel_id"
     t.text    "text",              null: false
+    t.string  "title",             null: false
   end
 
   create_table "quests", force: :cascade do |t|

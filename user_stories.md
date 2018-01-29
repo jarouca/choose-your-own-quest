@@ -55,41 +55,14 @@ Acceptance criteria:
 - I must be able to access the 'delete profile' link from the 'edit profile' page.
 - I must be given notification that my deletion was successful.
 
-#user creates a character
-
-As an authenticated user
-I want to create a character
-So my character can build quests
-
-Acceptance criteria:
-- I must be given notification that my character creation was successful
--
-
-#user edits a character(only allowed before a story has begun)
-
-As an authenticated user
-I want to edit my character
-So I can change character attributes
-
-Acceptance criteria:
-- I can only edit my character if they are not currently engaged on a quest
--
-#user deletes a character
-
-As an authenticated user
-I want to delete my character
-So I can maintain my profile
-
-- I must be able to access the 'delete character' link from the 'edit character' page
-- I must be given notification that my deletion was successful
-
-#user selects a story to begin
-
-#User can restart or redo a quest with a clean slate
 
 #upon sign is user redirected to quest index page
 
-#can user save progress in multiple quests at once?
+#user selects a quest to begin
+
+#User can restart or redo a quest with a clean slate
+
+#can user save progress in multiple quests at once? sure
 
 #user can select to carry and use/give away items, condition on displaying some panels: if user has this item, deisplay this option/choice
 
@@ -99,6 +72,10 @@ So I can maintain my profile
 
 #contact us form submittal, feedback, suggestions for quests, maybe users can write own quest?
 
-#safeguard against user having more than one 'choices' table for a quest, when sign back in and click on quest condition immediately checks for progress and starts user at that progress, not allowing to overwrite choices, if user clicks back to review story, condition says if choice was already made it doesn't show any other options to click on to move forward
-
 #heroku
+
+#user creates a character
+
+#user edits a character(only allowed before a story has begun)
+
+#user deletes a character
