@@ -1,0 +1,28 @@
+<% if user_signed_in? %>
+
+
+
+
+
+<% else %>
+
+  <h1 id="welcome-banner" class="text-center"><strong>Choose Your Own Quest</strong> is a web application that puts you right in the middle of the story. You will make crucial decisions each step along the way that effect the way the story unfolds and ultimately determines whether or not you complete your quest!<br>Here is how to get started:</h1>
+
+  <div class="splash-container">
+    <div class="callout secondary">
+      <h3 class="text-center panel-header"><strong><%= link_to 'Sign Up', new_user_registration_path %> or <%= link_to 'Sign In', new_user_session_path %></strong><h3>
+      <p>
+        Sign Up or Sign In so you can save your progress as your quest unfolds. This will allow you to sign out and resume your quest from the same spot when you sign back in.
+      </p>
+    </div>
+
+
+    <div class="callout secondary">
+      <h3 class="text-center panel-header"><strong>'Begin Your Quest'</strong><h3>
+      <p>
+        Once you are signed in, select one of our quests and start questing! Your progress will be saved so you can sign out and then later resume your quest right where you left off. Good luck!
+      </p>
+    </div>
+  </div>
+
+<% end %>
