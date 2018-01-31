@@ -68,7 +68,7 @@ Acceptance criteria:
 
 #contact us form, asking for feedback and ideas for new quests?
 
-#what happens if user hits back button to previous part of quest? does their action become undone? probably notice
+#what happens if user hits back button to previous part of quest? does their action become undone? probably not
 
 #contact us form submittal, feedback, suggestions for quests, maybe users can write own quest?
 
