@@ -1,8 +1,12 @@
 <% if user_signed_in? %>
 
+  <h3 id="quest-banner" class="text-center panel-header"><strong>Begin or resume a quest by selecting one below, adventure awaits!</strong><h3>
 
-
-
+    <ul>
+      <% @quests.each do |quest| %>
+        <li><%= "#{quest.title}" %></li>
+      <% end %>
+    </ul>
 
 <% else %>
 

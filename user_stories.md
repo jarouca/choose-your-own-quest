@@ -55,10 +55,26 @@ Acceptance criteria:
 - I must be able to access the 'delete profile' link from the 'edit profile' page.
 - I must be given notification that my deletion was successful.
 
-
-#upon sign is user redirected to quest index page
-
 #user selects a quest to begin
+
+As an authenticated user
+I want to select a quest
+So I can begin questing
+
+Acceptance criteria:
+- I must be redirected to quests#index upon successful sign in
+- I am able to click on a quest to begin that quest
+
+#user is able to resume quest from wherever they left off
+
+As an authenticated user
+I want to resume a quest from wherever I last left off
+So I can sign out and sign back in without losing my progress
+
+Acceptance criteria:
+- when selecting a quest I had previously started I must be immediately directed to the last panel I selected
+
+#each panel displays differet choices that lead to different panels
 
 #User can restart or redo a quest with a clean slate
 

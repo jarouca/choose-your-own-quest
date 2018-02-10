@@ -79,6 +79,10 @@
    color: white;
  }
 
+ #quest-banner {
+   margin-top: 20px;
+ }
+
  #welcome-banner {
    margin: 20px;
    font-size: 20px;
