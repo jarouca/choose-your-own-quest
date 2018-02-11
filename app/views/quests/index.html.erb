@@ -4,7 +4,7 @@
 
     <ul>
       <% @quests.each do |quest| %>
-        <li><%= "#{quest.title}" %></li>
+        <li><%= link_to "#{quest.title}", quest_path(quest.id) %></li>
       <% end %>
     </ul>
 

@@ -13,6 +13,7 @@ feature 'user selects a quest to begin' do
 
   scenario 'user successsfully selects a quest' do
     login_as(user, :scope => :user)
+    visit root_path
     click_link quest.title
 
     expect(page).to have_content(quest.title)
