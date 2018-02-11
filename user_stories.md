@@ -65,6 +65,14 @@ Acceptance criteria:
 - I must be redirected to quests#index upon successful sign in
 - I am able to click on a quest to begin that quest
 
+#admin creates quest
+
+#user quests
+
+#user completes quests
+
+#user starts quest over from beginning
+
 #user is able to resume quest from wherever they left off
 
 As an authenticated user
@@ -87,8 +95,6 @@ Acceptance criteria:
 #what happens if user hits back button to previous part of quest? does their action become undone? probably not
 
 #contact us form submittal, feedback, suggestions for quests, maybe users can write own quest?
-
-#heroku
 
 #user creates a character
 
