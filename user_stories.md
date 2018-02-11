@@ -67,6 +67,24 @@ Acceptance criteria:
 
 #admin creates quest
 
+As an authorized user
+I want to create a quest
+So other users can select it
+
+Acceptance criteria:
+- Only an authorized user with admin privileges can create a quest
+- Once signed in, I am able to access the quest#new page from the root_path
+
+#admin adds panel to quest
+
+As an authorized user
+I want to add panels to my quest
+So other users can progress through my quest
+
+Acceptance criteria:
+- Only the owner of the quest can add panels to it(add in test scenario of user trying to add panel to someone else's quest)
+-
+
 #user quests
 
 #user completes quests

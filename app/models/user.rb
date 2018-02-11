@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   has_one :choice
+  has_many :quests
 
   validates_presence_of :username
   # Include default devise modules. Others available are:
