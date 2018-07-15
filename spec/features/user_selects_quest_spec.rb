@@ -9,7 +9,7 @@ feature 'user selects a quest to begin' do
   # - I must be redirected to quests#index upon successful sign in
   # - I am able to click on a quest to begin that quest
   let!(:user) { FactoryGirl.create(:user) }
-  let!(:quest) { FactoryGirl.create(:quest) }
+  let!(:quest) { FactoryGirl.create(:quest, user_id: user.id) }
 
   scenario 'user successsfully selects a quest' do
     login_as(user, :scope => :user)

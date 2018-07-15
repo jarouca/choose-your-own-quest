@@ -8,13 +8,13 @@ feature 'user creates a quest' do
   #
   # Acceptance criteria:
   # - Only an authorized user with admin privileges can create a quest
-  # - Once signed in, I am able to access the quest#new page from the root_path
+  # - Once signed in, I am able to access the quest#new page from the   root_path
 
   let!(:admin_user) { FactoryGirl.create(:user, role: "admin") }
   let!(:non_admin_user) { FactoryGirl.create(:user) }
 
   scenario 'authorized user successfully creates quest' do
-    login_as(user, :scope => :user)
+    login_as(admin_user, :scope => :admin_user)
     visit root_path
     click_link 'Create Quest'
     fill_in 'Title', with: 'The Quest For The Lost Sock'
