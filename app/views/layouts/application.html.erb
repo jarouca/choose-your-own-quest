@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "Choose Your Own Quest" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "Quest Builder" %></title>
 
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=MedievalSharp" />
     <%= stylesheet_link_tag    "application" %>
@@ -17,7 +17,7 @@
       <div class="top-bar">
         <div class="top-bar-left">
           <ul class="menu">
-            <li><%= link_to 'Choose Your Own Quest', root_path %></li>
+            <li><%= link_to 'Quest Builder', root_path %></li>
           </ul>
         </div>
         <div class="top-bar-right">
