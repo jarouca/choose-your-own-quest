@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  has_one :choice
+  has_many :choices
   has_many :quests
 
   validates_presence_of :username
